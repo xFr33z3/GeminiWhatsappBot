@@ -1,4 +1,4 @@
-# WhatsappBot
+# GeminiWhatsappBot
 
 A WhatsApp bot with Google Gemini AI integration for intelligent message responses.
 
@@ -72,12 +72,12 @@ On first launch, the bot will generate a QR code that you'll need to scan with W
 
 1. The bot connects to WhatsApp using the whatsmeow library
 2. When receiving a message, it processes the content using Google Gemini AI
-3. It generates a contextually appropriate response in Italian
+3. It generates a contextually appropriate response
 4. The response is sent back to the original sender
 
 ## Customization
 
-You can customize the bot by modifying the `generateGeminiResponse` function in `utils.go` to create different prompts or change the language of responses. Currently, responses are generated in Italian with a 100-character limit.
+You can customize the bot by modifying the `generateGeminiResponse` function in `utils.go` to create different prompts or change the language of responses. Currently, responses are generated with a 100-character limit.
 
 ## Security
 
